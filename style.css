@@ -1,0 +1,111 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding:0;
+    margin:0;
+    border:0;
+    color: white
+}
+
+body .page{
+    margin:20px 80px;
+
+
+}
+
+/*Barre de navigation*/
+nav{
+    display: flex;
+    flex-wrap : wrap; 
+    justify-content : space-between;
+    position: sticky;
+    top:0;
+    
+    padding:10px 0px;
+
+
+}
+/*fin de la barre */
+html body footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+nav .onglets{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top:5px ;
+}
+
+nav .onglets a{
+    margin-right: 20px;
+    cursor:pointer;
+    
+
+}
+nav .buttons button{
+    padding: 13px 20px;
+    color: #ffff;
+    border:none;
+    outline:none;
+}
+
+nav .buttons .logins{
+    background-color:inherit;
+    margin-right: 10px;
+    color: white;
+ }
+
+nav .buttons .register{
+    margin-right: 0.75em;
+    color: white!important;
+    background: 0 0;
+    box-shadow: inset 0 0 0 0.15em #fea44c, 0 2px 20px #563719;
+    text-shadow: 0 2px 5px #563719;
+}
+
+/*fin de la barre */
+
+/*header*/
+header{
+margin-top: 40px;
+}
+header h1 {
+    text-align: center;
+    font-size: 90px;
+    padding: 150px;
+    color:aliceblue;
+}
+
+body{
+    margin-top:60px;
+    background:url("http://www.thailandveo.com/wp-content/uploads/sites/3/2019/04/AdobeStock_207701012-min.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px  1600px;
+    margin:0px;
+    padding:0px; 
+}
+
+
+
+
+/*fin header*/
+footer{
+    background-color: #fea44c;
+    padding: 25px 100px;
+    margin:0;
+    padding:0; 
+    
+}
+footer .colonnes{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+/*en bas*/
+
